@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    background-color: #1c1c1c;
+    width: 100%;
+}
+
+/* HEADER */
+
+header{
+    background-color: #ffd700;
+    width: 100%;
+    height: 86px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header ul li{
+    list-style-type: none;
+    padding-left: 80px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: .2s ;
+}
+
+header ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* CORPO DO SITE */
+
+section.intro{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/comida.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 85px;
+}
+
+section.intro .intro-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(0,0,0, 0.4);
+    backdrop-filter: blur;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+}
+
+/* Section Influencia */
+
+section.influencia{
+    height: 60vh;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #ffd700;
+}
+
+.influence-text h2{
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.influence-text p{
+    max-width: 600px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+
+.image{
+    width: 500px;
+    height: 300px;
+
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ffd700;
+}
+
+/* Os códigos css da seção de influência, também são reutilizados para a seção de cotidiano */
+
+/* Seção de top 3 */
+
+section.alimentos{
+    padding: 30px;
+    height: 50vh;
+}
+
+section.alimentos h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.receita h3{
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+
+.img{
+    width: 300px;
+    height: 200px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ffd700;
+}
+
+/* Footer */
+
+
+footer{
+    height: 40vh;
+    background-color: #ffd700;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nomes p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fontes p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+

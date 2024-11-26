@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    background-color: #1c1c1c;
+    width: 100%;
+}
+
+/* HEADER */
+
+header{
+    background-color: #ffd700;
+    width: 100%;
+    height: 86px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header ul li{
+    list-style-type: none;
+    padding-left: 80px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: .2s ;
+}
+
+header ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* CORPO DO SITE */
+
+section{
+    height: 50vh;
+    padding: 40px;
+    border-bottom: 2px solid white;
+}
+
+.ted h2{
+    color: #fff;
+  
+   
+}
+.ted p{
+    
+    color: #ffffff;
+
+}
+.pipa {
+  display: flex;    
+  padding-top: 40px;
+}
+
+section h1{
+    text-align: center;
+    color: #ffd700;
+    font-size: 30px;
+}
+
+.ted{
+    margin-left: 40px;
+}
+
+.mafaldo{
+    width: 400px;
+    height: 300px;
+}
+
+.mafaldo img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    height: 40vh;
+    background-color: #ffd700;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nomes p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fontes p{
+    margin-top: 20px;
+    font-size: 20px;
+}
