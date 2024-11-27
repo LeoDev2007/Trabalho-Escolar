@@ -48,7 +48,7 @@ header ul li a:hover{
 /* CORPO DO SITE */
 
 section{
-    height: 50vh;
+    height: 65vh;
     padding: 40px;
     border-bottom: 2px solid white;
 }
@@ -59,13 +59,17 @@ section{
    
 }
 .ted p{
-    
+    margin-top: 10px;
     color: #ffffff;
+    max-width: 700px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
 
 }
 .pipa {
   display: flex;    
-  padding-top: 40px;
+  padding-top: 70px;
 }
 
 section h1{
@@ -86,6 +90,9 @@ section h1{
 .mafaldo img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ffd700;
 }
 
 footer{
@@ -112,4 +119,5 @@ footer{
 .fontes p{
     margin-top: 20px;
     font-size: 20px;
+
 }
